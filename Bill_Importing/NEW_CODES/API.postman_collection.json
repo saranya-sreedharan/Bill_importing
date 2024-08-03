@@ -1,0 +1,120 @@
+{
+	"info": {
+		"_postman_id": "fea3c885-3022-449d-9c21-7833628877eb",
+		"name": "API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32682891"
+	},
+	"item": [
+		{
+			"name": "HOME",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/\n",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"\n"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "URL CONNECTION",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/check-url-connection",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"check-url-connection"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DB CONNECTION",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/check-db-connection",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"check-db-connection"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BOTH CONNECTION",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/check-both-connections",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"check-both-connections"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PROCESS EMAILS",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/process-emails",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"process-emails"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
